@@ -1,9 +1,11 @@
 <div>
-  <label for="">Informe um número para sequência de Alticci</label>
+  <label for="">Informe um número para sequência de Alticci: </label>
   <input type="number" [(ngModel)]="valor">
-  <br>
-  <input type="button" value="Enviar" (click)="calcular()">
+  <br> <br>
+  <input type="button" value="Submeter" (click)="calcular()">
 </div>
+<br>
+<hr>
 <div>
-  {{resultado}}
+ <p>Resultado: </p> {{resultado}}
 </div>
